@@ -1,5 +1,3 @@
-# aprendizagem
-Repositório para os primeiros programas 
 #include <stdio.h>
  
  void main()
