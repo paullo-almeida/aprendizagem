@@ -1,0 +1,18 @@
+/* escreva um programa de computador utilizando a linguagem C que leia (entrada de dados) o valor da idade e a altura de uma pessoa. 
+Em seguida, esse programa deve imprimir uma mensagem informando a idade e a altura digitadas.*/
+
+#include <stdio.h>
+
+int main(){
+  
+  int idade;
+  float altura;
+  printf ("Digite a idade de uma pessoa: \n");
+  scanf ("%i", &idade);
+  printf ("Digite a altura de uma pessoa: \n");
+  scanf ("%f", &altura);
+  printf ("Fulano tem %i anos!\n", idade);
+  printf ("Fulano tem %0.2f metros!\n", altura);
+
+  return 0;
+}
