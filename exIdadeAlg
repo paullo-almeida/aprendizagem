@@ -1,0 +1,15 @@
+/*escreva um programa de computador utilizando a linguagem C que leia (entrada de dados) o valor da idade de uma pessoa. Em seguida, esse programa deve imprimir uma mensagem informando a idade digitada.*/
+
+#include <stdio.h>
+
+int main (){
+  
+  int idade;
+
+  printf("Digite a idade da pessoa: \n");
+  scanf("%i", &idade);
+  printf("A idade digitada foi %i anos! \n", idade);
+
+  return 0;
+  
+}
