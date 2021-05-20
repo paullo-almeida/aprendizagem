@@ -1,0 +1,21 @@
+#include <stdio.h>
+/* escreva um programa de computador utilizando a linguagem C que imprima a mensagem OLÁ
+MUNDO dentro e no centro de uma “caixa”*/
+#include <locale.h>
+
+int main( ){
+
+  setlocale(LC_ALL, "Portuguese");
+
+  printf (" -------------------------------------------------------\n");
+  printf ("|                                                       |\n");
+  printf ("|                                                       |\n");
+  printf ("|                                                       |\n");
+  printf ("|                     Olá mundo!!                       |\n");
+  printf ("|                                                       |\n");
+  printf ("|                                                       |\n");
+  printf ("|                                                       |\n");
+  printf (" -------------------------------------------------------\n");
+  
+  return 0;
+}
