@@ -10,8 +10,6 @@ int main ()
   scanf("%s", nome);
   printf ("Seu nome é %s! \n", nome);
 
- 
-
  printf("Digite sua idade: \n");
  scanf("%i", &idade);
  printf("Sua idade é %i anos! \n", idade);
