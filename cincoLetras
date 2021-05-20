@@ -1,0 +1,35 @@
+/*escreva um programa de computador utilizando a linguagem C que leia (entrada de dados) o valor de cinco letras do alfabeto do idioma português. 
+Em seguida, esse programa deve imprimir cada uma das letras, na mesma ordem em que foram digitadas. 
+A impressão deve ocorrer tanto com uma letra por linha como com todas as letras na mesma linha.*/
+
+
+#include <stdio.h>
+
+int main( ) {
+  
+  char letra1, letra2, letra3, letra4, letra5;
+  
+  printf("Digite a primeira letra: \n");
+  scanf("%c%*c", &letra1);
+  fflush(stdin);
+  printf("Digite a segunda letra: \n");
+  scanf("%c%*c", &letra2);
+  fflush(stdin);
+  printf("Digite a terceira letra: \n");
+  scanf("%c%*c", &letra3);
+  fflush(stdin);
+  printf ("Digite a quarta letra: \n");
+  scanf ("%c%*c", &letra4);
+  fflush(stdin);
+  printf ("Digite a quinta letra: \n");
+  scanf ("%c%*c", &letra5);
+  printf ("\n");
+  printf ("Primeira letra digitada = %c.\n", letra1);
+  printf ("Segunda letra digitada = %c.\n", letra2);
+  printf ("Terceira letra digitada = %c. \n", letra3);
+  printf ("Quarta letra digitada = %c. \n", letra4);
+  printf ("Quinta letra digitada = %c. \n\n\n", letra5);
+  printf ("Todas as letras na mesma linha e na ordem em que foram digitadas = %c, %c, %c, %c, %c.", letra1, letra2, letra3, letra4, letra5);
+
+  return 0;
+}
